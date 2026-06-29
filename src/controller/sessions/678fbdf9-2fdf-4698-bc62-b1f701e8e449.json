@@ -1,0 +1,68 @@
+{
+  "session_id": "678fbdf9-2fdf-4698-bc62-b1f701e8e449",
+  "title": "你好",
+  "messages": [
+    {
+      "role": "user",
+      "content": "你好",
+      "timestamp": "2026-06-29T18:26:42.096803"
+    },
+    {
+      "role": "assistant",
+      "content": "你好，我是电力行业智能问答助手，可以帮助你进行知识检索、问题分析和答案生成。",
+      "timestamp": "2026-06-29T18:26:42.121746",
+      "thinking_steps": [
+        {
+          "sessionId": "678fbdf9-2fdf-4698-bc62-b1f701e8e449",
+          "messageId": "m1",
+          "stepId": "intent",
+          "label": "意图识别",
+          "status": "running",
+          "detail": "正在识别问题类型"
+        },
+        {
+          "sessionId": "678fbdf9-2fdf-4698-bc62-b1f701e8e449",
+          "messageId": "m1",
+          "stepId": "intent",
+          "label": "意图识别",
+          "status": "done",
+          "detail": "识别为 general_chat，路由到 general_llm_chat"
+        },
+        {
+          "sessionId": "678fbdf9-2fdf-4698-bc62-b1f701e8e449",
+          "messageId": "m1",
+          "stepId": "retrieval",
+          "label": "知识检索",
+          "status": "running",
+          "detail": "正在检索相关知识片段"
+        },
+        {
+          "sessionId": "678fbdf9-2fdf-4698-bc62-b1f701e8e449",
+          "messageId": "m1",
+          "stepId": "retrieval",
+          "label": "知识检索",
+          "status": "done",
+          "detail": "召回 0 条知识片段"
+        },
+        {
+          "sessionId": "678fbdf9-2fdf-4698-bc62-b1f701e8e449",
+          "messageId": "m1",
+          "stepId": "answer",
+          "label": "回答生成",
+          "status": "running",
+          "detail": "正在调用 DeepSeek 生成回答"
+        },
+        {
+          "sessionId": "678fbdf9-2fdf-4698-bc62-b1f701e8e449",
+          "messageId": "m1",
+          "stepId": "answer",
+          "label": "回答生成",
+          "status": "done",
+          "detail": "回答生成完成"
+        }
+      ]
+    }
+  ],
+  "created_at": "2026-06-29T18:26:41.296085",
+  "updated_at": "2026-06-29T18:26:42.121746"
+}
