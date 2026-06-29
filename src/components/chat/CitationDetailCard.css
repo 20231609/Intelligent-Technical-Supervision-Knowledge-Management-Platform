@@ -1,0 +1,91 @@
+.citation-detail-card {
+    width: min(420px, calc(100vw - 48px));
+}
+
+.citation-detail-card__header {
+    margin-bottom: 10px;
+}
+
+.citation-detail-card__title {
+    color: #1677ff;
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 1.5;
+    word-break: break-all;
+}
+
+.citation-detail-card__breadcrumb {
+    margin-top: 4px;
+    color: #13a8a8;
+    font-size: 12px;
+    line-height: 1.5;
+    word-break: break-all;
+}
+
+.citation-detail-card__body {
+    max-height: 220px;
+    overflow-y: auto;
+    padding-right: 2px;
+}
+
+.citation-detail-card__snippet-block + .citation-detail-card__snippet-block {
+    margin-top: 10px;
+    padding-top: 10px;
+    border-top: 1px dashed #f0f0f0;
+}
+
+.citation-detail-card__snippet-label {
+    margin-bottom: 6px;
+    color: #8c8c8c;
+    font-size: 12px;
+}
+
+.citation-detail-card__snippet {
+    padding: 12px;
+    border: 1px solid #f0f0f0;
+    border-radius: 8px;
+    background: #fafafa;
+    color: #434343;
+    font-size: 13px;
+    line-height: 1.7;
+    white-space: pre-wrap;
+    word-break: break-word;
+}
+
+.citation-detail-card__footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 12px;
+    margin-top: 12px;
+    padding-top: 10px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.citation-detail-card__relevance {
+    color: #8c8c8c;
+    font-size: 12px;
+    white-space: nowrap;
+}
+
+.citation-detail-card__view-original {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    padding: 0;
+    border: none;
+    background: transparent;
+    color: #1677ff;
+    font-size: 13px;
+    cursor: pointer;
+}
+
+.citation-detail-card__view-original:hover {
+    color: #4096ff;
+}
+
+.citation-detail-card__view-original:focus-visible {
+    outline: 2px solid #1677ff;
+    outline-offset: 2px;
+    border-radius: 4px;
+}

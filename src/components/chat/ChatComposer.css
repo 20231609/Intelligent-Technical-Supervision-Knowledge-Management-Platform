@@ -1,0 +1,26 @@
+.chat-composer {
+    padding: 16px 24px 20px;
+    border-top: 1px solid var(--border-color);
+    background: var(--surface-color);
+}
+
+.chat-composer__input-wrap {
+    display: flex;
+    gap: 12px;
+    align-items: flex-end;
+}
+
+.chat-composer__textarea {
+    flex: 1;
+}
+
+.chat-composer__send {
+    flex-shrink: 0;
+    height: 40px;
+}
+
+.chat-composer__hint {
+    display: block;
+    margin-top: 8px;
+    font-size: 12px;
+}

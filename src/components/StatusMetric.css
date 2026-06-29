@@ -1,0 +1,20 @@
+.statusMetric {
+  background: #ffffff;
+  border: 1px solid #dce8f0;
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.statusMetric h3.ant-typography {
+  font-size: 24px;
+  line-height: 32px;
+  margin: 4px 0;
+}
+
+.statusMetricTrend {
+  align-items: center;
+  color: #16835b;
+  display: flex;
+  font-size: 12px;
+  gap: 4px;
+}
